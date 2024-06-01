@@ -1,0 +1,36 @@
+* {
+    background: #1F2937;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+  background: white;
+  height: 200px;
+  flex: auto;
+}
+
+.flex-container .one * {
+    color: #f9faf8;
+}
+
+.flex-container .one {
+    background: #1F2937;
+}
+
+.flex-container .three{
+    background: #e5e7eb;
+}
+
+.flex-container .three *{
+    color: #1F2937;
+    background: #e5e7eb;
+}
+
+.flex-container .four {
+    color: #f9faf8;
+    
+}
